@@ -1,0 +1,14 @@
+[22,27,16,2,18,6] Insertion Sort:
+
+1-27 22'den küçük mü diye sorulur 
+2-16 [22,27]listesinden küçük mü diye sorulur ve sıralanır.
+3-Her adım için tekrarlanır.
+Sıralanmış hali: [2,6,16,18,22,27]
+ Time complexity'si O(n^2)
+Average case olur.
+
+[7,3,5,8,2,9,4,15,6]
+1-7 en küçük eleman mı diye sorulur.
+2-Bu esnada bulunan daha küçük bir sayı varsa başa yazılır. [2,7,3,5,8,9,4,15,6] olur
+3-7 ve sonraki sayılar için en küçüklük bakılır. 
+4-Daha küçüğü varsa başa yazılır. [2,3,7,5,8,9,4,15,6] olur.
